@@ -1,0 +1,175 @@
+body{
+    font-family: 'Montserrat-black', sans-serif;
+    width: 100%;
+    
+}
+
+#title{
+    background-color: pink;
+    padding: 3% 15%;
+    color: white;
+}
+
+.c1{
+    background-color: pink;
+    color: white;
+    width: 100%;  
+    margin: 0%;  
+    padding: 7% 15%;
+    padding-bottom: 15%;
+}
+
+h1{
+    font-size: 3.5rem;
+    font-weight: bolder;
+    font-family: 'Montserrat-black', sans-serif;
+    line-height: 1.5;
+}
+
+.dog{
+    transform: rotate(20deg);
+    margin: 50px;
+    width: 60%;
+    position: absolute;
+}
+
+.nav-item{
+    padding: 20px 20px 40px 20px;
+
+}
+
+.nav-link{
+    font-size: 25px;
+    font-weight: lighter;
+}
+
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.mybtn{
+    margin-left: 0px;
+    margin-right: 20px;
+}
+
+h3{
+    font-family: 'Montserrat-black', sans-serif;
+    font-weight: bolder;
+}
+
+#features{
+    background-color: white;
+    width: 100%;
+    padding: 200px 200px;
+    text-align: center;
+    font-weight: bold;
+    position: relative;
+}
+
+.features1{
+    height: auto;
+}
+
+
+
+p{
+    color: rgb(179, 179, 179);
+}
+
+.icon{
+    font-size: 100px;
+    color: palevioletred;
+    margin: 20px;
+}
+
+
+.icon:hover{
+    color: red;
+}
+
+
+#testimonials{
+    background-color: pink;
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+
+}
+
+h2{
+    font-size: 50px;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+#press{
+    background-color: pink;
+    padding: 100px;
+    text-align: center;
+}
+
+.press-logo{
+    width: 15%;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+#pricing{
+    text-align: center;
+    padding: 7% 15%;
+}
+
+#cta{
+    background-color: pink;
+    text-align:center;
+    padding: 8% 17%;
+    color: white;
+}
+
+.cta_heading{
+    padding: 2% 4%;
+}
+
+
+#footer{
+    text-align: center;
+    padding: 5% 20% 3% 20%;
+}
+
+.myicon{
+    padding: 2% 2%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:1035px){
+    .dog{
+        position: static;
+        transform : rotate(0deg);
+    }
+    .c1{
+        text-align: center;
+    }
+}
